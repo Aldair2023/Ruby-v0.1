@@ -11,7 +11,9 @@ print "su nombre es #{gets.to_s}y tiene #{(2**4) + 6} años"
 # my_name = "#{}"
 =end
 
+=begin
 # Calcular el porcentaje que invirtio cada persona en una negocio
+
 
 puts "Ingrese su monto"
 m1 = gets.to_f
@@ -31,3 +33,21 @@ puts "La suma total invertida es: #{suma} "
 puts "El porcentaje que invirtio Uno es: #{inversorUno} %"
 puts "El porcentaje que invirtio Dos es: #{inversorDos} %"
 puts "El porcentaje que invirtio Tres es: #{inversorTres} %"
+=end
+
+
+# calcular la suma de los numeros de 1 al 10
+
+pares = Array.new
+
+i = 0
+num = 10
+
+while i > num do
+      (i % 2 == 0)
+      pares.unshift(i)
+      i=+1
+
+end
+
+puts "#{pares}"
